@@ -6,3 +6,4 @@ if(n==="aabbcc"){
 }else{
   n="cannot login!";
 }
+document.getElementById("id").innerHTML=n;
