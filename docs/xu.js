@@ -1,7 +1,7 @@
-const x=new URLSearchParams(window.localtion.search);
+const x=new URLSearchParams(window.location.search);
 let y=x.get('id');
 var n="";
-if(n==="aabbcc"){
+if(y==="aabbcc"){
   n="you can login!";
 }else{
   n="cannot login!";
